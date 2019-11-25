@@ -1,6 +1,6 @@
 # localhost_poc
-Delphi PoC how to access to localhost from a https website
-This PoC shows how to call an action inside a Delphi local executable behind a firewall
+Delphi PoC or how to access to localhost from a https website.<br>
+This PoC shows how to call an action inside a Delphi local executable behind a firewall.
 
 ## How to run
 1. Find poc.exe in Win32\Release
@@ -27,9 +27,9 @@ document.addEventListener("DOMContentLoaded", function () {
 to your page. It can be done in developer tools or in actual served page.
 
 ## Test it all
-1. run poc.exe locally
-2. **in same computer**, go to injected page and click in any blank section
-3. an alert should raise and poc.exe should add a line to ListBox
+1. run poc.exe locally. First time Windows will ask to create a *local* firewall exception. Please, permit that.
+2. **in same computer**, go to injected page and click in any blank section.
+3. an alert should raise and poc.exe should add a line to ListBox on every click.
 
 ## Go further
 Modify this code to do more interesting things:
